@@ -6,7 +6,7 @@
     <div class="container">
       <h1>CAÇA-PALAVRAS</h1>
       <p>Bem-vindo! Divirta-se e desafie-se!</p>
-      <button><a href="/routes">iniciar jogo</a></button>
+      <button><a href="/página do jogo">iniciar jogo</a></button>
       <button on:click={()=>modal.show()}>Informações</button>
       <Modal bind:this={modal}>
         <h2>informações</h2>
