@@ -4,13 +4,13 @@
 </script>
 <body>
     <div class="container">
-      <h1>CAÇA-PALAVRAS</h1>
+      <h1>PALAVRAS CRUZADAS</h1>
       <p>Bem-vindo! Divirta-se e desafie-se!</p>
       <button><a href="/página do jogo">iniciar jogo</a></button>
       <button on:click={()=>modal.show()}>Informações</button>
       <Modal bind:this={modal}>
         <h2>informações</h2>
-        <p>Desenvolvido por: <br>Rebeca vitoria <br>Marilia gabriela <br>Arthur severino <br> Matheus josé <br>Glênio josé </p>
+        <p>Desenvolvido por: <br>Rebeca vitoria <br>Marilia gabriela <br>Arthur severino <br> Matheus josé <br>José glênio</p>
        
        
         <button on:click={() => modal.hide()}>Fechar</button>
