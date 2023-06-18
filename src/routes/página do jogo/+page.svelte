@@ -1,6 +1,6 @@
 <style>
     td{
-        border: 2px solid black;
+        border: 3px solid black;
         width: 60px;
         height: 50px;
         text-align: center;
