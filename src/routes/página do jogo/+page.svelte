@@ -4,7 +4,7 @@
         width: 60px;
         height: 50px;
         text-align: center;
-       color: white;
+       
        
     }
     .palavracruzada{
