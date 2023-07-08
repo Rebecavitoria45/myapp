@@ -1,6 +1,10 @@
 <script>
+// @ts-nocheck
+
     import Modal from "./modal.svelte";
+   
     let modal;
+    let modal2;
 </script>
 <body>
     <div class="container">
@@ -10,12 +14,21 @@
       <button on:click={()=>modal.show()}>Informações</button>
       <Modal bind:this={modal}>
         <h2>informações</h2>
-        <p>Desenvolvido por: <br>Rebeca vitoria <br>Marilia gabriela <br>Arthur severino <br> Matheus josé <br>José glênio</p>
+        <p>Desenvolvido por: <br>Rebeca vitoria <br>Marilia gabriela <br>Arthur severino <br> Matheus josé <br>José glênio. <br>Com a ajuda do monitor: <br> Cleiton lucas.</p>
        
        
         <button on:click={() => modal.hide()}>Fechar</button>
       </Modal>
-  
+      <button on:click={()=>modal2.show()}>Instruções</button>
+      <Modal bind:this={modal2}>
+        <h2>instruções</h2>
+       <nav>
+        <p>Coloque letras minúsculas. <br>Apenas verifique a resposta depois de completar todas as palavras.</p>
+       </nav>
+       
+       
+        <button on:click={() => modal2.hide()}>Fechar</button>
+      </Modal>
     
        
     </div>
@@ -59,5 +72,8 @@ a{
  }
 body{
   background-color: white;
+}
+nav{
+  font-size: 25px;
 }
 </style>

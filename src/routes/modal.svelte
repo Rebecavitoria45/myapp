@@ -9,21 +9,21 @@
 </script>
 <style>
 .modal-wrapper{
-  background-color: black;
-  background-color: rgba(0,0,0,0.6);
+ 
+  background-color: rgb(224, 218, 218);
   position: fixed;
   width: 100%;
   height: 100%;
   top:0;
   left: 0;
+
   
 }
 .modal{
-    background-color: whitesmoke;
-    max-width: 80vw;
+    background-color:whitesmoke;
     padding: 1rem;
     margin: 10% auto;
-
+  border-style: solid;
 }
 </style>
 <svelte:window
