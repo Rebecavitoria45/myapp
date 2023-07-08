@@ -24,10 +24,11 @@ let resposta= [
 		[0,0,0,"a",0,0,0,0,0,0],
 		[0,0,0,"r",0,0,0,0,0,0],
 		]
+
 		
-	var input= ""
+	var input= ""  ;
 	
-	function compareArrays() {
+	function compareArrays() {  
 	for (let i = 0; i < resposta.length; i++) {
       for (let j = 0; j < resposta[0].length; j++) {
         if (resposta[i][j] !== tabela[i][j]) {
@@ -40,7 +41,7 @@ let resposta= [
 	return input= "green";
 }
 </script>
-	
+<!-- var input serve para deixar verde ou vermelha a tabela quando comparado os dois arrays -->
 	<div>
         <h1>
             PALAVRA CRUZADA
@@ -64,7 +65,7 @@ let resposta= [
 				{/each}
 			</tr>
 		{/each}
-       </table>
+       </table> <!-- criação da tabela -->
 	 <div id="voltar"> <button> <a href="/">Voltar ao menu</a></button> </div> 
   </div>
   
@@ -95,7 +96,6 @@ td{
     border: 1px solid white;
     width: 30px;
     height: 30px;
-    
 }
 input{
     width: 40px;
@@ -103,13 +103,10 @@ input{
     box-shadow: 0 0 0 0;
     outline: 0;
     text-align: center;
-    
 }
 table{
     border-collapse: collapse;
     padding-right: 400px;
-
-    
 }
 input:focus{
 background-color: yellow;
@@ -123,7 +120,6 @@ font-style: normal;
 h1{
 font-family: 'glossy';
 text-align: center;
-
 }
 .tabela{
 float: right;

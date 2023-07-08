@@ -7,19 +7,19 @@
     let modal2;
 </script>
 <body> 
-    <div class="container">
+    <div class="container"> <!-- página inicial -->
       <h1>PALAVRAS CRUZADAS</h1>
       <p>Bem-vindo! Divirta-se e desafie-se!</p>
       <button><a href="/página do jogo">iniciar jogo</a></button>
       <button on:click={()=>modal.show()}>Informações</button>
-      <Modal bind:this={modal}>
+       <Modal bind:this={modal}> <!-- janela modal -->
         <h2>informações</h2>
         <p>Desenvolvido por: <br>Rebeca vitoria <br>Marilia gabriela <br>Arthur severino <br> Matheus josé <br>José glênio. <br>Com a ajuda do monitor: <br> Cleiton lucas.</p>
         <button on:click={() => modal.hide()}>Fechar</button>
       </Modal>
-      <button on:click={()=>modal2.show()}>Instruções</button>
       
-      <Modal bind:this={modal2}>
+      <button on:click={()=>modal2.show()}>Instruções</button>
+     <Modal bind:this={modal2}> <!-- janela modal --> 
         <h2>instruções</h2>
        <nav>
         <h3>Coloque letras minúsculas. <br>Apenas verifique a resposta depois de completar todas as palavras.</h3>
@@ -29,7 +29,8 @@
      </div>
 </body>
       
-      <style>
+     
+     <style>
          @font-face {
       font-family: 'glossy';
       src: url('Glossy Sheen Shine DEMO.ttf') format('truetype');
