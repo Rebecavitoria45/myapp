@@ -22,7 +22,7 @@
       <Modal bind:this={modal2}>
         <h2>instruções</h2>
        <nav>
-        <p>Coloque letras minúsculas. <br>Apenas verifique a resposta depois de completar todas as palavras.</p>
+        <h3>Coloque letras minúsculas. <br>Apenas verifique a resposta depois de completar todas as palavras.</h3>
        </nav>
        <button on:click={() => modal2.hide()}>Fechar</button>
       </Modal>
@@ -70,4 +70,8 @@ body{
 nav{
   font-size: 25px;
 }
+p{
+  font-size: 20px;
+}
+
 </style>
