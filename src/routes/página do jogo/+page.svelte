@@ -58,7 +58,7 @@ let resposta= [
 					<div id="vazio"/>
 					{:else}
                     
-					<input  type="texto" id="celula" bind:value={resposta[i][j]} maxlength="1"  class="branco" style="background-color: {input}" /> 
+					<input  type="texto"  autocomplete="off" id="celula" bind:value={resposta[i][j]} maxlength="1"  class="branco" style="background-color: {input}" /> 
 					
 					{/if}	
 					</td>
