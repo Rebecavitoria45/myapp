@@ -26,7 +26,7 @@ let resposta= [
 		]
 
 		
-	var input= ""  ;
+	 var input= "" ;
 	
 	function compareArrays() {  
 	for (let i = 0; i < resposta.length; i++) {
@@ -70,22 +70,23 @@ let resposta= [
   </div>
   
 <div class="horizontal">
-        <h2>Horizontal</h2>
-<p>1. Aquele que tem inveja  (8 LETRAS)</p>
 
-<p>4.Individuo do sexo masculino (5 LETRAS)</p>
-
-<p>5. o que é objeto da nossa mais alta aspiração: a solução perfeita (5 LETRAS)</p>
-
-<p>7. Instrumento bastante antigo, composto de cordas estendidas numa moldura aberta (5 LETRAS) </p>
-
-<p>8.Mover-se ou sustentar-se no ar por meio de asas ou algum meio mecânico <br>(4 LETRAS)</p>
 <h2>Vertical</h2>
-<p> 2.Vingar uma agressão com outra maior,mais violenta (7 LETRAS)</p>
+<p> Vingar uma agressão com outra maior,mais violenta (7 LETRAS)</p>
 
-<p>3. Móvel destinado a refeiçôes,jogos,apoio etc (4 LETRAS)</p>
+<p> Móvel destinado a refeiçôes,jogos,apoio etc (4 LETRAS)</p>
 
-<p>6. Quieto, sossegado: não apresenta agitação, pertubação <br>(5 LETRAS)</p>
+<p>Quieto, sossegado: não apresenta agitação, pertubação <br>(5 LETRAS)</p>
+        <h2>Horizontal</h2>
+<p> Aquele que tem inveja  (8 LETRAS)</p>
+
+<p>Individuo do sexo masculino (5 LETRAS)</p>
+
+<p> O que é objeto da nossa mais alta aspiração: a solução perfeita (5 LETRAS)</p>
+
+<p>Instrumento bastante antigo, composto de cordas estendidas numa moldura aberta (5 LETRAS) </p>
+
+<p>Mover-se ou sustentar-se no ar por meio de asas ou algum meio mecânico <br>(4 LETRAS)</p>
 
 <button on:click={()=> compareArrays()}>Verificar</button>
 
