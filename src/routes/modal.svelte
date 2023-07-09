@@ -25,15 +25,12 @@ on:keydown={ (e) => {
 
 <style>
   .modal-wrapper{
-   
     background-color: rgb(224, 218, 218);
     position: fixed;
     width: 100%;
     height: 100%;
     top:0;
     left: 0;
-  
-    
   }
   .modal{
       background-color:whitesmoke;

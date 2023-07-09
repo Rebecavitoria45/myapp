@@ -1,16 +1,15 @@
 <script>
 // @ts-nocheck
-
-    import Modal from "./modal.svelte";
-   
-    let modal;
-    let modal2;
+import Modal from "./modal.svelte";
+   let modal;
+   let modal2;
 </script>
 <body> 
     <div class="container"> <!-- página inicial -->
       <h1>PALAVRAS CRUZADAS</h1>
       <p>Bem-vindo! Divirta-se e desafie-se!</p>
       <button><a href="/página do jogo">iniciar jogo</a></button>
+      
       <button on:click={()=>modal.show()}>Informações</button>
        <Modal bind:this={modal}> <!-- janela modal -->
         <h2>informações</h2>
@@ -29,9 +28,8 @@
      </div>
 </body>
       
-     
      <style>
-         @font-face {
+    @font-face {
       font-family: 'glossy';
       src: url('Glossy Sheen Shine DEMO.ttf') format('truetype');
       font-weight: normal;
@@ -58,7 +56,7 @@ button {
   border-radius: 4px;
   font-family: 'glossy';
   }
-  button:hover{
+button:hover{
     box-shadow: 0 0 15px rgb(5, 198, 252), inset 0 0 15px rgb(4, 215, 252);
   }
 a{

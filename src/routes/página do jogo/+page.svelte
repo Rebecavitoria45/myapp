@@ -25,8 +25,7 @@ let resposta= [
 		[0,0,0,"r",0,0,0,0,0,0],
 		]
 
-		
-	 var input= "" ;
+	var input= "" ;
 	
 	function compareArrays() {  
 	for (let i = 0; i < resposta.length; i++) {
@@ -38,7 +37,7 @@ let resposta= [
         }
     }
  }
-	return input= "green";
+ return input= "green";
 }
 </script>
 <!-- var input serve para deixar verde ou vermelha a tabela quando comparado os dois arrays -->
@@ -69,23 +68,17 @@ let resposta= [
 	 <div id="voltar"> <button> <a href="/">Voltar ao menu</a></button> </div> 
   </div>
   
-<div class="horizontal">
+<div class="dicas">
 
-<h2>Vertical</h2>
+        <h2>Vertical</h2>
 <p> Vingar uma agressão com outra maior,mais violenta (7 LETRAS)</p>
-
 <p> Móvel destinado a refeiçôes,jogos,apoio etc (4 LETRAS)</p>
-
 <p>Quieto, sossegado: não apresenta agitação, pertubação <br>(5 LETRAS)</p>
         <h2>Horizontal</h2>
 <p> Aquele que tem inveja  (8 LETRAS)</p>
-
 <p>Individuo do sexo masculino (5 LETRAS)</p>
-
 <p> O que é objeto da nossa mais alta aspiração: a solução perfeita (5 LETRAS)</p>
-
 <p>Instrumento bastante antigo, composto de cordas estendidas numa moldura aberta (5 LETRAS) </p>
-
 <p>Mover-se ou sustentar-se no ar por meio de asas ou algum meio mecânico <br>(4 LETRAS)</p>
 
 <button on:click={()=> compareArrays()}>Verificar</button>
@@ -126,7 +119,7 @@ text-align: center;
 float: right;
 padding-right: 200px;
 }
-.horizontal{
+.dicas{
 text-align: left;
 font-family: 'Times New Roman', Times, serif;
 border: 5px solid rgb(71, 93, 153);
