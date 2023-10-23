@@ -65,7 +65,7 @@ let resposta= [
 			</tr>
 		{/each}
        </table> <!-- criação da tabela -->
-	 <div id="voltar"> <button> <a href="/">Voltar ao menu</a></button> </div> 
+	<button on:click={()=> compareArrays()}>Verificar</button>
   </div>
   
 <div class="dicas">
@@ -80,8 +80,8 @@ let resposta= [
 <p> O que é objeto da nossa mais alta aspiração: a solução perfeita (5 LETRAS)</p>
 <p>Instrumento bastante antigo, composto de cordas estendidas numa moldura aberta (5 LETRAS) </p>
 <p>Mover-se ou sustentar-se no ar por meio de asas ou algum meio mecânico <br>(4 LETRAS)</p>
+ <div id="voltar"> <button> <a href="/">Voltar ao menu</a></button> </div> 
 
-<button on:click={()=> compareArrays()}>Verificar</button>
 
 </div>
 	
